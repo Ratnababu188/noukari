@@ -1,0 +1,196 @@
+
+*{
+    padding: 0px;
+    box-sizing: 0px;
+    margin: 0px;
+    font-family: 'DM Sans';
+}
+
+
+
+
+
+body{
+    background:  #2F1983 !important;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.nav-link{
+    color: white !important;
+    font-size: 16px ;
+    margin: 0 0px 0px 15px;
+    
+}
+.nav-link:focus,
+.nav-link:hover{
+    color: rgb(233 58 125) !important;
+}
+
+
+.purchase{
+    border-radius: 25px ;
+    background-color: #E93A7D !important ;
+    text-align: center;
+    width: 120px;
+    height: 40px ;
+    
+}
+ .purchase:focus,
+ .purchase:hover{
+    color: white !important;
+ }
+
+ .row h1{
+    font-size: 58px ;
+    font-weight: 700;
+    letter-spacing: 2.1px;
+    font-family: 'DM Sans';
+ }
+ .row p{
+    font-size: 20px !important;
+    
+ }
+ .learn-btn{
+    background-color: #e93a7d;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    width: 157px ;
+    height: 50px ;
+    transition: 0.5s;
+}
+
+.form{
+    background-color: white ;
+    padding: 25px 4rem ;
+    margin-bottom: 60px ;
+}
+.form h4{
+    text-align: center !important;
+    font-family: 'DM Sans';
+    font-weight: 600;
+    font-size: 41px;
+    padding: 10px 20px
+}
+
+.fiedls input:not([type="checkbox"]){
+    width:100% !important;
+    border: 1px solid  #d6d6d6;
+    border-radius: 25px;
+    padding: 0px 15px;
+    margin-top: 20px;
+    outline: none;
+    height: 50px;
+
+}
+.fields input::placeholder {
+    color: #15143986 !important;
+}
+
+.terms input{
+    width: 24px ;
+    height: 24px;
+    float: left;
+    margin-right: 6px;
+}
+
+.fiedls button{
+    width: 100% ;
+    margin: 8px 0;
+    border: none;
+    border-radius: 25px;
+    background-color: #2e0cee;
+    color: white;
+    height: 50px;
+    transition: 0.5s;
+}
+
+.fiedls button:hover {
+    background-color: #2F1983 ;
+    color: white ;
+}
+
+
+.line {
+    width: 100% ;
+    background-color: #15143986 ;
+    height: 2px;
+    margin-top: 8px ;
+    opacity: 0.6 ;
+}
+.terms {
+    margin-top: 20px ;
+    color: #15143986 ;
+    margin-bottom: 15px ;
+    font-size: 18px ;
+
+}
+.Aera {
+    padding: 0px 50px 0px 0px ;
+}
+
+
+@media only screen and (max-width:991px) {
+    .form h4 {
+        font-size: 30px;
+        padding: 5px 20px;
+    }
+
+    .fields input:not([type="checkbox"]) {
+        height: 43px;
+    }
+
+    .form {
+        padding: 25px 2rem;
+    }
+
+    .fields button {
+        height: 43px;
+    }
+
+    .my-4 {
+        margin-top: 0.5rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+
+    .terms {
+        font-size: 16px;
+        margin-top: 20px !important;
+    }
+
+    .terms input {
+        width: 19px;
+        height: 19px;
+        float: left;
+        margin-right: 8px;
+    }
+
+    .account {
+        font-size: 16px !important;
+        color: #15143986;
+        text-align: center !important;
+    }
+
+
+
+    .row h1 {
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 2.5px;
+    }
+
+    .row p {
+        font-size: 17px;
+        margin: 27px auto;
+        padding: 0px 0px 0 0;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .Aera {
+        margin-bottom: 39px;
+    }
+}
